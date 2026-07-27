@@ -7,5 +7,3 @@ if __name__ == "__main__":
     model, metrics = pipeline.run_pipeline()
 
     print(metrics)
-
-    
