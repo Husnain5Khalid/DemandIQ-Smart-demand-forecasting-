@@ -14,3 +14,4 @@ pipeline = PredictionPipeline()
 prediction = pipeline.predict(sample)
 
 print(prediction)
+
