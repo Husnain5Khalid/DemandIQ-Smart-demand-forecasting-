@@ -1,8 +1,10 @@
-from demand_iq.logger import logger
+from demand_iq.exception import DemandIQException
+import sys
 
-logger.info("Project Started")
+try:
 
-logger.info("Loading Data")
+    number = 10 / 0
 
-logger.info("Training Model")
+except Exception as e:
 
+    raise DemandIQException(e, sys)
