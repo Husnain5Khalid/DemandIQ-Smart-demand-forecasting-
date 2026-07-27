@@ -282,7 +282,6 @@ Machine Learning Engineer
 
 🔗 LinkedIn: https://linkedin.com/in/husnain-khalid111
 
-💻 GitHub: https://github.com/yourusername
 
 ---
 
