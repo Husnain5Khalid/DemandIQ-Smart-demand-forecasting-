@@ -1,10 +1,9 @@
-from demand_iq.exception import DemandIQException
-import sys
+from src.components.data_ingestion import DataIngestion
 
-try:
+ingestion = DataIngestion()
 
-    number = 10 / 0
+train_df, valid_df = ingestion.load_data()
 
-except Exception as e:
+print(train_df.shape)
 
-    raise DemandIQException(e, sys)
+print(valid_df.shape)
