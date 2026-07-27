@@ -1,9 +1,34 @@
 from src.components.data_ingestion import DataIngestion
+from src.components.data_transformation import DataTransformation
 
+# Load data
 ingestion = DataIngestion()
-
 train_df, valid_df = ingestion.load_data()
 
-print(train_df.shape)
+# Transform data
+transformer = DataTransformation()
 
-print(valid_df.shape)
+(
+    X_train_processed,
+    y_train,
+    X_valid_processed,
+    y_valid,
+    preprocessor
+) = transformer.transform_data(
+    train_df,
+    valid_df
+)
+
+from src.components.model_trainner import ModelTrainer
+
+trainer = ModelTrainer()
+
+model, metrics = trainer.train(
+    X_train_processed,
+    y_train,
+    X_valid_processed,
+    y_valid
+)
+
+print(metrics)
+
