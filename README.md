@@ -263,8 +263,6 @@ Deployment-ready architecture prepared for AWS using Docker containers.
 
 # 📈 Future Improvements
 
-- MLflow Experiment Tracking
-- CI/CD Pipeline
 - Kubernetes Deployment
 - Model Monitoring
 - Automated Retraining
