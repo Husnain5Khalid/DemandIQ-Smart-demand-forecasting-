@@ -21,19 +21,20 @@ The project demonstrates the complete lifecycle of a machine learning applicatio
 
 # 🚀 Features
 
-- End-to-End ML Pipeline
+- End-to-End Machine Learning Pipeline
 - Exploratory Data Analysis (EDA)
 - Advanced Feature Engineering
-- Multiple Model Comparison
-- Hyperparameter Tuning
-- Modular Project Architecture
-- Training Pipeline
-- Prediction Pipeline
-- Model Serialization
+- Multi-Model Training & Comparison
+- Hyperparameter Optimization
+- MLflow Experiment Tracking & Model Registry
+- Modular ML Architecture
+- Automated Training & Prediction Pipelines
 - FastAPI REST API
 - Docker Containerization
-- AWS Deployment Ready
-- Logging & Exception Handling
+- CI/CD Automation using GitHub Actions
+- AWS Cloud Deployment
+- Centralized Logging & Exception Handling
+
 
 ---
 
@@ -168,6 +169,19 @@ The following regression models were evaluated:
 
 - Git
 - GitHub
+
+- ## ⚙️ MLOps Pipeline
+
+- Modular Project Structure
+- Configuration Management
+- Logging & Exception Handling
+- Automated Training Pipeline
+- Automated Prediction Pipeline
+- MLflow Experiment Tracking
+- Model Versioning
+- Docker Image Build
+- GitHub Actions CI/CD
+- AWS Deployment
 
 ---
 
