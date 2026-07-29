@@ -19,7 +19,7 @@ The project demonstrates the complete lifecycle of a machine learning applicatio
 
 ---
 
-# 🚀 Features
+# 🚀 Features ## 
 
 - End-to-End Machine Learning Pipeline
 - Exploratory Data Analysis (EDA)
